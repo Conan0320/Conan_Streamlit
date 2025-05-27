@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+pyyaml
+python-dotenv
+streamlit-aggrid

@@ -1,0 +1,13 @@
+paths:
+  profile_md: "profile.md"  # 替换原来的profile_docx
+  profile_image: "Self_picture.jpg"
+  bilibili_history: "频道历史数据.csv"
+  bilibili_videos: "热门稿件数据.csv"
+
+smtp:
+  server: "smtp.example.com"
+  port: 587
+  username: "your_email@example.com"
+  password: "your_password"
+  sender: "your_email@example.com"
+  receiver: "your_email@example.com"

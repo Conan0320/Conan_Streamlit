@@ -1,0 +1,61 @@
+/* 头像动画效果 */
+.profile-image {
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+/* 文字渐现效果 */
+.profile-text {
+    animation: fadeIn 1s ease-in;
+}
+
+/* 新增标题样式 */
+.stTitle {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* 新增分隔线样式 */
+.stMarkdown hr {
+    margin: 25px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+/* 新增左侧信息卡样式 */
+.stMarkdown div {
+    padding: 20px;
+    background-color: rgba(240, 242, 246, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 链接样式 */
+.stMarkdown a {
+    color: #1e88e5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.stMarkdown a:hover {
+    color: #0d47a1;
+    text-decoration: underline;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .stMarkdown div {
+        padding: 15px;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
